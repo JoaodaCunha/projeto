@@ -96,9 +96,12 @@ li a:hover{
 }
 .img {
     width: 200%;
-
+    opacity: 1.0;
 }
 
+img:hover {
+  opacity: 0.5;
+}
 #citacao {
     grid-area: citacao;
     display: block;

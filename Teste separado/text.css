@@ -1,0 +1,78 @@
+/*------ Corpo do Site -----*/
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    background-color: rgb(230, 217, 202);
+}
+
+/*------ Cabecalho -----*/
+header {
+    grid-area: header;
+    background-color: grey;
+    padding-top: 1px;
+    color:white;
+   
+}
+
+.titulo {
+    text-decoration-line: underline overline;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 40px;
+    text-align: center;
+}
+
+/*------ Barra de Navegacao -----*/
+.nav {
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: inherit;
+}
+
+.menu {
+    background-color: #b1b0ad ;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 0px;
+}
+
+.menu li a {
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color:#3d3d3d;
+    box-shadow: 5px 2px 2px black;
+}
+
+/*------ Tabela dos Salmos -----*/
+.tabela::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.coluna {
+    float: left;
+}
+
+.coluna
